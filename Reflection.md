@@ -1,0 +1,3 @@
+# Reflection
+___
+Balancing stakeholder needs posed challenges, especially in prioritizing feature requests. Fitness enthusiasts demanded real-time feedback, whereas health professionals required data accuracy and consistency. Ensuring both needs were met required designing a robust data processing mechanism. Similarly, business owners focused on monetization while system administrators emphasized security. Trade-offs were necessary to ensure performance without compromising security. The iterative Agile approach helped refine requirements through stakeholder feedback.

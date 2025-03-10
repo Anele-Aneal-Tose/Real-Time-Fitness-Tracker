@@ -12,3 +12,8 @@ The Real-Time Fitness Tracker is a web and mobile-based application designed to 
 ___
 - [System Specification](SPECIFICATION.md)
 - [Architecture Overview](ARCHITECTURE.md)
+- [Stakeholder Analysis Table](Stakeholder_Analysis_Table.md)
+- [System Requirements Document](System_Requirements_Document.md)
+- [Reflection](Reflection.md)
+
+
