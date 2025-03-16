@@ -15,5 +15,8 @@ ___
 - [Stakeholder Analysis Table](Stakeholder_Analysis_Table.md)
 - [System Requirements Document](System_Requirements_Document.md)
 - [Reflection](Reflection.md)
+- [Test case development](Test-Case-Development.md)
+- [Use case diagram](Use_Case_Diagram.md)
+- [Use case specifications](Use_Case_Specifications.md)
 
 
