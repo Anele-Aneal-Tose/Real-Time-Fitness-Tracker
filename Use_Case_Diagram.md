@@ -30,4 +30,7 @@ ___
 * API Data Integration: Provides real-time health and fitness data.
 
 ### Addressing Stakeholders Concerns
-This diagram addresses stakeholder concerns from Assignment 4 by clearly mapping which actors interact with which system functionalities, ensuring that user requirements (like real-time data and personalized recommendations) and system constraints (such as secure integration with APIs) are modeled effectively.
+<p>This diagram addresses stakeholder concerns from Assignment 4 by clearly mapping which 
+actors interact with which system functionalities, ensuring that user requirements 
+(like real-time data and personalized recommendations) and system constraints 
+(such as secure integration with APIs) are modeled effectively.</p>

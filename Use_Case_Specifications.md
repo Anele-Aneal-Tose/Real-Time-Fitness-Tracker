@@ -111,3 +111,4 @@
   3. The data is presented in an accessible format.
   ### Alternative Flows:
   * If consent is missing or data is inaccessible, the trainer is notified.
+___
