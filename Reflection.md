@@ -40,6 +40,29 @@ developers and testers but also ensure that any modifications or enhancements to
 This documentation will serve as a reference throughout the project lifecycle, ensuring that the system evolves without 
 deviating from stakeholder expectations.</p>
 
+### Assignment 6
+
+<p>In completing this assignment, I faced several challenges in balancing stakeholder needs, prioritizing user stories, 
+and estimating effort for tasks. One of the main challenges was ensuring that the user stories aligned with the 
+functional and non-functional requirements from Assignment 4 while also addressing the use cases from Assignment 5. 
+For example, the requirement for real-time fitness tracking (FR-2) had to be broken down into smaller, actionable tasks 
+like integrating the wearable device API and developing the data processing logic.</p>
+
+<p>Another challenge was prioritization using the MoSCoW method. Deciding which features were "Must-have" versus 
+"Should-have" required careful consideration of stakeholder needs and technical feasibility. For instance, the login and 
+authentication functionality (US-001) was prioritized as a "Must-have" because it is a foundational feature that enables 
+all other functionalities. However, integrating third-party APIs (US-007) was marked as a "Could-have" because it is not 
+essential for the initial release but adds significant value in the long term.</p>
+
+<p>Effort estimation was also a challenge, especially when dealing with dependencies. For example, the task of 
+integrating the wearable device API (T-003) had a high effort estimate due to the complexity of handling real-time data 
+and ensuring compatibility with multiple devices. Additionally, breaking down user stories into smaller tasks required a 
+deep understanding of the system architecture, which was facilitated by the C4 diagrams from Assignment 3.</p>
+
+<p>Overall, this assignment helped me understand the importance of Agile methodologies in managing complex software 
+projects. By breaking down requirements into user stories, prioritizing them, and planning sprints, I was able to create 
+a clear roadmap for developing the Real-Time Fitness Tracker system.</p>
+
 ___
 
 
