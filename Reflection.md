@@ -40,7 +40,7 @@ developers and testers but also ensure that any modifications or enhancements to
 This documentation will serve as a reference throughout the project lifecycle, ensuring that the system evolves without 
 deviating from stakeholder expectations.</p>
 
-### Assignment 6
+## Assignment 6
 
 <p>In completing this assignment, I faced several challenges in balancing stakeholder needs, prioritizing user stories, 
 and estimating effort for tasks. One of the main challenges was ensuring that the user stories aligned with the 
@@ -64,5 +64,16 @@ projects. By breaking down requirements into user stories, prioritizing them, an
 a clear roadmap for developing the Real-Time Fitness Tracker system.</p>
 
 ___
+## Assignment 7
 
+### Challenges in Template Selection and Customization
+* Choosing the right template: Basic Kanban lacked automation, while Team Planning was too complex for our needs.
+* Customizing workflows: Ensuring the board structure aligned with Agile principles while keeping it flexible.
+* Task breakdown: Properly linking issues from the sprint backlog without cluttering the board.
 
+### Comparison with Other Tools (Trello, Jira)
+| Feature            |GitHub Projects|Trello|Jira|
+|--------------------|---|---|---|
+| __Automation__     |Yes (via templates)|Limited (manual or Power-Ups)|Advanced (rules, integrations)|
+| __Issue Tracking__ |Strong (integrates with GitHub)|Weak (task-based, not issue-focused)|Strong (built for software teams)|
+| __Ease of Use__    |Moderate|Easy|Complex (steep learning curve)|
