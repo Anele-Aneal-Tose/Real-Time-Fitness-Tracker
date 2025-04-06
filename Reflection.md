@@ -77,3 +77,15 @@ ___
 | __Automation__     |Yes (via templates)|Limited (manual or Power-Ups)|Advanced (rules, integrations)|
 | __Issue Tracking__ |Strong (integrates with GitHub)|Weak (task-based, not issue-focused)|Strong (built for software teams)|
 | __Ease of Use__    |Moderate|Easy|Complex (steep learning curve)|
+
+## Assignment 8
+## Reflection
+### Challenges:
+* Granularity: Simplified the "API Integration" state diagram by omitting transient states like "Retrying" to maintain readability.
+* Agile Alignment: Ensuring activity diagrams matched sprint tasks (e.g., "Develop Data Aggregation API" mapped to the Generate Report workflow).
+* Tool Limitations: Mermaid’s lack of native swimlane support required creative labeling.
+
+### State vs. Activity Diagrams:
+* State: Focused on object lifecycles (e.g., User Account’s lifecycle from registration to closure).
+* Activity: Emphasized end-to-end processes (e.g., steps to generate a report).
+
