@@ -11,6 +11,7 @@ ___
 improve their fitness activities through real-time tracking and intelligent insights. The system integrates with 
 wearable fitness devices to provide users with instant access to their fitness metrics, including heart rate, calories 
 burned, step count, and workout performance.</p>
+
 ## Links:
 ___
 
