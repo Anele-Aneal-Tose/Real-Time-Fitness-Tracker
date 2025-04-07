@@ -13,6 +13,7 @@ wearable fitness devices to provide users with instant access to their fitness m
 burned, step count, and workout performance.</p>
 ## Links:
 ___
+
 - [System Specification](SPECIFICATION.md)
 - [Architecture Overview](ARCHITECTURE.md)
 - [Stakeholder Analysis Table](Stakeholder_Analysis_Table.md)
@@ -22,6 +23,8 @@ ___
 - [Use case diagram](Use_Case_Diagram.md)
 - [Use case specifications](Use_Case_Specifications.md)
 - [Comparison Table](Comparison-Table.md)
+- [State Transition Diagrams](State-Transition-Diagrams.md)
+- [Activity Diagram](Activity-Diagrams.md)
 
 ___
 

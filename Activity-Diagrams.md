@@ -1,7 +1,7 @@
 # Activity Diagram
 
 ## User Registration/Login
-![This is user registration diagram](User_Account_Activity_Diag.png)
+![This is user registration diagram](Assignment_8/User_Account_Activity_Diag.png)
 
 ## User registration explainantion
 |Component| Details                                                                          |
@@ -14,7 +14,7 @@
 |Mapping to FR/NFR|                     FR-1 (secure registration), NFR-Security (credential validation).|
 
 ## Track Fitness Data
-![This is track fitness diagram](Track_Fitness_Activity_Diag.png)
+![This is track fitness diagram](Assignment_8/Track_Fitness_Activity_Diag.png)
 
 | Component | Details                                                              |
 |-----------|----------------------------------------------------------------------|
@@ -26,7 +26,7 @@
 |       Mapping to FR/NFR    |      FR-2 (real-time tracking), NFR-Performance (parallel updates).|
 
 ## Generate Report
-![This is generate report diagram](Generate_Report_Activty_Diagram.png)
+![This is generate report diagram](Assignment_8/Generate_Report_Activty_Diagram.png)
 
 |Component| Details                                                              |
 |---|----------------------------------------------------------------------|
@@ -38,7 +38,7 @@
 |Mapping to FR/NFR|     FR-6 (analytics), NFR-Usability (graphical format).|
 
 ## Set and Monitor Goals
-![This is Set and Monitor Goals diagram](Set_and_Monitor_Activity_Diagram.png)
+![This is Set and Monitor Goals diagram](Assignment_8/Set_and_Monitor_Activity_Diagram.png)
 
 |Component| Details                                                   |
 |---|-----------------------------------------------------------|
@@ -49,7 +49,7 @@
 |Swimlanes| User: Input goal, System: Save, Track, Check.             |
 |Mapping to FR/NFR|   FR-5 (goal monitoring), FR-9 (notifications).|
 ## Provide Workout Recommendations
-![This is Provide Workout diagram](Provide_Workout_Recomm_Activity_Diagram.png)
+![This is Provide Workout diagram](Assignment_8/Provide_Workout_Recomm_Activity_Diagram.png)
 
 |Component| Details                                                         |
 |---|-----------------------------------------------------------------|
@@ -61,7 +61,7 @@
 |Mapping to FR/NFR	|   FR-4 (personalized recommendations), NFR-Usability (user-friendly UI).                                                              |
 
 ## Integrate Third-Party API
-![This is Integrate Third-Party API diagram](Integrate_Third-Party_API_Actvity_Diagram.png)
+![This is Integrate Third-Party API diagram](Assignment_8/Integrate_Third-Party_API_Actvity_Diagram.png)
 
 |Component| Details                                                          |
 |---|------------------------------------------------------------------|
@@ -73,7 +73,7 @@
 |Mapping to FR/NFR	|     FR-7 (API integration), NFR-Deployability (cross-platform compatibility).                                                             |
 
 ## Send Notifications
-![This is Send Notifications diagram](Send_Notifications_Activtiy_Diag.png)
+![This is Send Notifications diagram](Assignment_8/Send_Notifications_Activtiy_Diag.png)
 
 |Component| Details                                                          |
 |---|------------------------------------------------------------------|
@@ -85,7 +85,7 @@
 |Mapping to FR/NFR	| FR-9 (notifications), NFR-Performance (timely delivery).|
 
 ## Access Client Data
-![This is Access Client Data diagram](Access_Client_Data_Activity_Diag.png)
+![This is Access Client Data diagram](Assignment_8/Access_Client_Data_Activity_Diag.png)
 
 |Component| Details                                                              |
 |---|----------------------------------------------------------------------|

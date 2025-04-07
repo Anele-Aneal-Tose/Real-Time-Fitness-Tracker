@@ -1,21 +1,21 @@
 # State Transition Diagrams
 ___
 ## User_Account_Diagram
-![This is user account diagram](User-state-transition-diagram.png)
+![This is user account diagram](Assignment_8/User-state-transition-diagram.png)
 ## Fitness_Data_Diagram
-![This is fitness data diagram](Fitness-Data-State-transition.png)
+![This is fitness data diagram](Assignment_8/Fitness-Data-State-transition.png)
 ## Workout_Goal_Diagram
-![This is workout goal diagram](Work-out-Goal-State-transition.png)
+![This is workout goal diagram](Assignment_8/Work-out-Goal-State-transition.png)
 ## Report_Diagram
-![This is report diagram](Report-State-Transition.png)
+![This is report diagram](Assignment_8/Report-State-Transition.png)
 ## Notification_Diagram
-![This is notification diagram](Notification-State-Transition.png)
+![This is notification diagram](Assignment_8/Notification-State-Transition.png)
 ## Workout_Recommendation_Diagram
-![This is workout recommendation diagram](Workout-Recomm-State-Transition.png)
+![This is workout recommendation diagram](Assignment_8/Workout-Recomm-State-Transition.png)
 ## API_Integration_Diagram
-![This is api integration diagram](APi-Integration-State-Transition.png)
+![This is api integration diagram](Assignment_8/APi-Integration-State-Transition.png)
 ## Device_Connection_Diagram
-![This is device connection diagram](Device-Connection-State-Transition.png)
+![This is device connection diagram](Assignment_8/Device-Connection-State-Transition.png)
 
 # Explaination of Transitions to Different States
 ___
