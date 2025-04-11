@@ -13,5 +13,5 @@
 
 # Class Diagram in Mermaid.js
 
-![This is my class diagram](Assign_9_Class_Diag.png)
+![This is my class diagram](Assignment_9/Assign_9_Class_Diag.png)
 
