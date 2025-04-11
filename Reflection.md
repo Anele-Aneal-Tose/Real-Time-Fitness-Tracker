@@ -1,5 +1,9 @@
 # Reflection
 ___
+
+## Assignment 4
+___ 
+
 <p>Balancing stakeholder needs posed challenges, especially in prioritizing feature requests. 
 
 Fitness enthusiasts demanded real-time feedback, whereas health professionals required data accuracy and consistency. 
@@ -7,6 +11,10 @@ Ensuring both needs were met required designing a robust data processing mechani
 Similarly, business owners focused on monetization while system administrators emphasized security. 
 Trade-offs were necessary to ensure performance without compromising security. 
 The iterative Agile approach helped refine requirements through stakeholder feedback.</p>
+___
+
+## Assignment 5
+___
 
 <p>For assignment 5, the process of translating high-level system and stakeholder requirements into detailed use 
 cases and corresponding test cases posed several challenges. One major challenge was ensuring that the use cases derived 
@@ -41,6 +49,7 @@ This documentation will serve as a reference throughout the project lifecycle, e
 deviating from stakeholder expectations.</p>
 
 ## Assignment 6
+___
 
 <p>In completing this assignment, I faced several challenges in balancing stakeholder needs, prioritizing user stories, 
 and estimating effort for tasks. One of the main challenges was ensuring that the user stories aligned with the 
@@ -65,7 +74,7 @@ a clear roadmap for developing the Real-Time Fitness Tracker system.</p>
 
 ___
 ## Assignment 7
-
+___
 ### Challenges in Template Selection and Customization
 * Choosing the right template: Basic Kanban lacked automation, while Team Planning was too complex for our needs.
 * Customizing workflows: Ensuring the board structure aligned with Agile principles while keeping it flexible.
@@ -79,7 +88,9 @@ ___
 | __Ease of Use__    |Moderate|Easy|Complex (steep learning curve)|
 
 ## Assignment 8
+___
 ## Reflection
+___
 ### Challenges:
 * Granularity: Simplified the "API Integration" state diagram by omitting transient states like "Retrying" to maintain readability.
 * Agile Alignment: Ensuring activity diagrams matched sprint tasks (e.g., "Develop Data Aggregation API" mapped to the Generate Report workflow).
@@ -88,4 +99,37 @@ ___
 ### State vs. Activity Diagrams:
 * State: Focused on object lifecycles (e.g., User Account’s lifecycle from registration to closure).
 * Activity: Emphasized end-to-end processes (e.g., steps to generate a report).
+
+___
+
+## Assignment 9
+___
+<p> Designing the domain model and class diagram for the Real-Time Fitness Tracker system was both insightful and 
+challenging. This task pushed me to abstract complex real-world interactions into modular components while ensuring 
+alignment with the use cases, functional requirements, and behavioral models developed in Assignments 4 through 8.</p>
+
+___
+
+### Challenges:
+___
+* Abstraction: Deciding whether to model Trainer as a subclass or a separate entity. Chose inheritance to avoid redundancy.
+* Relationships: Balancing multiplicity (e.g., limiting devices per user) while ensuring scalability.
+* Alignment: Validating that class methods (e.g., track(), generate()) map to use cases like "Track Fitness Data" and "Generate Reports."
+
+## Trade-offs:
+___
+* Inheritance vs. Composition: Used inheritance for Trainer to simplify permissions but avoided overcomplicating roles like "Admin."
+* Granularity: Combined fitness metrics into FitnessData instead of creating separate classes for steps, calories, etc.
+
+## Lessons Learned:
+___
+* Object-oriented design emphasizes reusability (e.g., inheritance) and encapsulation (e.g., separating data processing in FitnessData).
+* Clear relationships and constraints are critical for enforcing business rules (e.g., device limits).
+
+## Alignment with Prior Work:
+___
+* The WorkoutRecommendation class supports Use Case 5 from Assignment 5.
+* State diagrams from Assignment 8 (e.g., FitnessData states like "tracking") are reflected in methods like track() and process().
+
+___
 
