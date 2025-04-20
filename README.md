@@ -27,6 +27,8 @@ ___
 - [State Transition Diagrams](State-Transition-Diagrams.md)
 - [Activity Diagram](Activity-Diagrams.md)
 - [Domain Model Documentation](Domain_Model_Documentation.md)
+- [Change log file](CHANGELOG.md)
+- [Coverage Report](Coverage_Report.md)
 
 ___
 
