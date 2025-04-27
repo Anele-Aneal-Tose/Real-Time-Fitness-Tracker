@@ -26,4 +26,7 @@ public class Report {
         return format;
     }
 
+    public String getId() {
+        return reportId;
+    }
 }

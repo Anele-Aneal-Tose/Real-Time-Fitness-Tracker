@@ -20,6 +20,7 @@ public class User {
         this.password = password;
         this.role = role;
     }
+
     public  void login(){
         System.out.println("Logging in via OAuth 2.0 and MFA");
     }
@@ -43,6 +44,14 @@ public class User {
     public List<Goal> getGoals() {
         return goals;
     }
+
+    public String getId() {
+        return userId;
+    }
+
+//    public String getName() {
+//        return name;
+//    }
 }
 
 class Trainer extends User {

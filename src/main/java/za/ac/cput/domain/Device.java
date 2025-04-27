@@ -17,4 +17,8 @@ public class Device {
     public void syncData(){
         System.out.println("Syncing data from device");
     }
+
+    public String getId() {
+        return deviceId;
+    }
 }

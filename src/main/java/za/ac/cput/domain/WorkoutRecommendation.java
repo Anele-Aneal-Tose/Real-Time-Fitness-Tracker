@@ -19,4 +19,8 @@ public class WorkoutRecommendation implements Cloneable {
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+    public String getId() {
+        return recommendationId;
+    }
 }

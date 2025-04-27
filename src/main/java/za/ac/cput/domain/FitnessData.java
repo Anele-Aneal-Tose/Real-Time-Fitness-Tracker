@@ -32,4 +32,8 @@ public class FitnessData {
     public double getValue() {
         return value;
     }
+
+    public String getId() {
+        return dataId;
+    }
 }

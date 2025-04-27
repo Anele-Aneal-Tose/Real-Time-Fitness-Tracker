@@ -72,3 +72,81 @@ Java was chosen for this project because:
 |Builder|Construct complex Goal object with optional deadline/progress| GoalBuilder                                                    |
 |Prototype|Clone WorkoutRecommendation templates| WorkoutRecommendation                                          |
 |Singleton|DatabaseConnection or OAuthManager| Database connection                                            |
+
+## Assignment 11
+___
+
+This project is a Real-Time Fitness Tracker application, aimed at helping users monitor their fitness data, devices, goals, reports, and workout recommendations.  
+It is designed with clean separation of concerns, scalability, and testability in mind.
+
+This repository covers the implementation of:
+- Domain classes
+- All six creational design patterns
+- A persistence repository layer
+- In-memory storage
+- Factory-based repository creation
+- Future-proofing for database integration
+- Unit tests for repositories
+
+---
+
+## Repository Layer
+
+### 1. Generic Repository Interface
+ I created a **generic `Repository<T, ID>` interface** defining standard CRUD operations:
+- `save(T entity)`
+- `findById(ID id)`
+- `findAll()`
+- `delete(ID id)`
+
+ **Why use Generics?**  
+Using generics avoids duplication across entity repositories and keeps the system scalable and DRY (Don't Repeat Yourself).
+
+
+---
+
+### 2. Entity-specific Repositories
+
+Each main domain entity has its own repository interface extending `Repository<T, ID>`:
+
+- `UserRepository`
+- `DeviceRepository`
+- `FitnessDataRepository`
+- `GoalRepository`
+- `ReportRepository`
+- `WorkoutRecommendationRepository`
+
+
+---
+
+### 3. In-Memory Repository Implementations
+
+Each entity has an **in-memory HashMap-based repository** implementing its respective interface.
+
+Example:
+- `InMemoryUserRepository`
+- `InMemoryDeviceRepository`
+- etc.
+
+Each repository uses `HashMap<ID, Entity>` for storage.
+
+
+**Why start with In-Memory?**
+- Fast unit testing
+- No external dependencies
+- Easy to later replace with database or file system
+
+---
+
+### 4. Repository Factory (Abstraction Mechanism)
+
+I implemented a **Factory Pattern** using `RepositoryFactory` to abstract storage backend selection.
+
+- Default storage backend is **MEMORY**.
+- Can switch to **DATABASE** (future) easily.
+
+Usage Example:
+
+```java
+UserRepository userRepo = RepositoryFactory.getUserRepository();
+ 

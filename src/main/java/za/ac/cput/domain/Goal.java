@@ -22,4 +22,8 @@ public class Goal {
             System.out.println("Goal Achieved!");
         }
     }
+
+    public String getId() {
+        return goalId;
+    }
 }
