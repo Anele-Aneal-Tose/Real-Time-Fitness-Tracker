@@ -29,6 +29,7 @@ ___
 - [Domain Model Documentation](Domain_Model_Documentation.md)
 - [Change log file](CHANGELOG.md)
 - [Coverage Report](Coverage_Report.md)
+- [Branch Protection Rules](PROTECTION.md)
 
 ___
 
@@ -157,4 +158,13 @@ UserRepository userRepo = RepositoryFactory.getUserRepository();
 - REST API for /users, /devices, /fitness-data
 - Swagger UI documentation
 
+## Assignment 13
+
+### Workflows tests
+
+![Workflow Tests Screenshots](Workflow_tests1.png)
+![Workflow Tests Screenshots](Workflow_tests2.png)
+![Workflow Tests Screenshots](Workflow_tests3.png)
+![Workflow Tests Screenshots](Workflow_tests4.png)
+![Workflow Tests Screenshots](Workflow_tests5.png)
  
