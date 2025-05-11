@@ -149,4 +149,12 @@ Usage Example:
 
 ```java
 UserRepository userRepo = RepositoryFactory.getUserRepository();
+
+## Assignment 12
+
+### Added
+- UserService, DeviceService, FitnessDataService
+- REST API for /users, /devices, /fitness-data
+- Swagger UI documentation
+
  
