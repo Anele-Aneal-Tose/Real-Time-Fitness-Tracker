@@ -132,4 +132,25 @@ ___
 * State diagrams from Assignment 8 (e.g., FitnessData states like "tracking") are reflected in methods like track() and process().
 
 ___
+# Assignment 14
+
+# Reflection on Open Source Collaboration
+
+## Improvements Based on Peer Feedback
+After sharing my repo, several peers pointed out areas for improvement:
+- Added better error messages in the API.
+- Clarified how to run tests in README.
+- Made CONTRIBUTING.md simpler to follow.
+
+## Onboarding Challenges
+- Getting peers to engage and test the code.
+- Making sure my instructions were clear enough.
+- Balancing between too little and too much detail in the setup guide.
+
+## Lessons Learned
+- Clear documentation is crucial.
+- GitHub Issues and labels help guide contributors.
+- Real-world open-source collaboration requires proactive communication and feedback cycles.
+
+I also learned how valuable automated CI (Assignment 13) is in maintaining a reliable codebase. Overall, I now feel more confident managing collaborative projects on GitHub.
 

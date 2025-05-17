@@ -95,10 +95,10 @@ This repository covers the implementation of:
 
 ### 1. Generic Repository Interface
  I created a **generic `Repository<T, ID>` interface** defining standard CRUD operations:
-- `save(T entity)`
-- `findById(ID id)`
-- `findAll()`
-- `delete(ID id)`
+- save(T entity)
+- findById(ID id)
+- findAll()
+- delete(ID id)
 
  **Why use Generics?**  
 Using generics avoids duplication across entity repositories and keeps the system scalable and DRY (Don't Repeat Yourself).
@@ -110,12 +110,12 @@ Using generics avoids duplication across entity repositories and keeps the syste
 
 Each main domain entity has its own repository interface extending `Repository<T, ID>`:
 
-- `UserRepository`
-- `DeviceRepository`
-- `FitnessDataRepository`
-- `GoalRepository`
-- `ReportRepository`
-- `WorkoutRecommendationRepository`
+- UserRepository
+- DeviceRepository
+- FitnessDataRepository
+- GoalRepository
+- ReportRepository
+- WorkoutRecommendationRepository
 
 
 ---
@@ -125,11 +125,11 @@ Each main domain entity has its own repository interface extending `Repository<T
 Each entity has an **in-memory HashMap-based repository** implementing its respective interface.
 
 Example:
-- `InMemoryUserRepository`
-- `InMemoryDeviceRepository`
+- InMemoryUserRepository
+- InMemoryDeviceRepository
 - etc.
 
-Each repository uses `HashMap<ID, Entity>` for storage.
+Each repository uses HashMap<ID, Entity> for storage.
 
 
 **Why start with In-Memory?**
@@ -141,14 +141,14 @@ Each repository uses `HashMap<ID, Entity>` for storage.
 
 ### 4. Repository Factory (Abstraction Mechanism)
 
-I implemented a **Factory Pattern** using `RepositoryFactory` to abstract storage backend selection.
+I implemented a **Factory Pattern** using RepositoryFactory to abstract storage backend selection.
 
 - Default storage backend is **MEMORY**.
 - Can switch to **DATABASE** (future) easily.
 
 Usage Example:
 
-```java
+## java
 UserRepository userRepo = RepositoryFactory.getUserRepository();
 
 ## Assignment 12
