@@ -9,7 +9,7 @@ To set up the project locally:
 1. Fork the repository.
 2. Clone your fork:
 
-   git clone https://github.com/your-username/your-fork.git
+   git clone (https://github.com/Anele-Aneal-Tose/Real-Time-Fitness-Tracker.git)
    cd your-fork
 
 ## Coding Standards
