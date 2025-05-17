@@ -13,7 +13,7 @@ To set up the project locally:
    cd your-fork
 
 ## Coding Standards
-- Follow PEP8/Google Java Style Guide.
+- Follow the Gang of four design patterns for Java.
 - Write tests for your changes.
 
 ## Submitting a PR
