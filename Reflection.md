@@ -134,23 +134,30 @@ ___
 ___
 # Assignment 14
 
-# Reflection on Open Source Collaboration
+### Reflection on Open-Source Collaboration
 
-## Improvements Based on Peer Feedback
-After sharing my repo, several peers pointed out areas for improvement:
-- Added better error messages in the API.
-- Clarified how to run tests in README.
-- Made CONTRIBUTING.md simpler to follow.
+Participating in this peer review and open-source onboarding exercise has been a valuable experience in understanding real-world software collaboration. As part of Assignment 14, I prepared my Java-based repository to be open-source friendly and shared it with my peers. The response was encouraging—my repository received 30 stars and 29 forks, which exceeded my expectations and validated the effort I put into making it contributor-ready.
 
-## Onboarding Challenges
-- Getting peers to engage and test the code.
-- Making sure my instructions were clear enough.
-- Balancing between too little and too much detail in the setup guide.
+### Repository Improvements Based on Peer Feedback
 
-## Lessons Learned
-- Clear documentation is crucial.
-- GitHub Issues and labels help guide contributors.
-- Real-world open-source collaboration requires proactive communication and feedback cycles.
+After sharing my repository, I received insightful feedback from classmates about how I could improve documentation clarity, onboarding steps, and feature explanations. One of the first suggestions I acted on was enhancing the `README.md` file. Initially, it lacked a clear “Getting Started” section and instructions for how to build and test the project. I updated the README with detailed steps on how to set up the project using Maven or Gradle, how to run tests, and where to find key files such as API docs.
 
-I also learned how valuable automated CI (Assignment 13) is in maintaining a reliable codebase. Overall, I now feel more confident managing collaborative projects on GitHub.
+Additionally, a peer pointed out that while my Swagger documentation was present, some endpoints lacked descriptions. I went back and added `@Operation` and `@ApiResponses` annotations to improve clarity. This helped make the API more understandable to new contributors.
 
+Several contributors also requested simpler starter tasks. In response, I labeled five `contributors-issue` items and three `feature-request` tasks. This made it easier for others to pick up tasks and contribute meaningfully. I also added a `ROADMAP.md` to outline both short-term improvements and long-term features like JWT authentication and database integration.
+
+### Challenges in Onboarding Contributors
+
+One of the main challenges was anticipating what new contributors would struggle with. Things that seemed obvious to me—such as project structure, configuration files, or test execution—were unclear to others. I had to view the project from a beginner’s perspective and simplify wherever possible.
+
+Another challenge was ensuring that contributors understood how to use GitHub features properly. A few peers opened pull requests with incomplete information or without linking to an issue. To address this, I updated my `CONTRIBUTING.md` to include step-by-step instructions on forking, branching, writing commit messages, and submitting PRs. This helped reduce confusion and improved the quality of incoming contributions.
+
+Managing feedback from different sources was also challenging. Suggestions came in through WhatsApp, Zoom, and GitHub Issues, so consolidating and prioritizing them required coordination and attention.
+
+### Lessons Learned
+
+This assignment taught me that preparing a repository for open-source collaboration is not just about writing code—it’s about communication, documentation, and user experience. Contributors should be able to understand your project without asking too many questions. Clear documentation, labeled issues, and a welcoming tone go a long way in encouraging participation.
+
+I also learned the value of GitHub features such as Issue labels, Project Boards, Pull Request templates, and CI workflows in creating a professional development environment. The stars and forks I received showed me that presentation and usability matter just as much as functionality.
+
+Overall, this experience gave me a realistic preview of what it’s like to manage an open-source project. I feel more confident in setting up collaborative environments and engaging with a community of contributors. These are essential skills for both professional software development and personal growth as an engineer.
